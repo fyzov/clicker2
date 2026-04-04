@@ -8,9 +8,6 @@ class User(db.Model):
     score = db.Column(db.Integer)
     level = db.Column(db.Integer)
 
-    def __repr__(self):
-        return f"<User {self.nickname}>"
-
     def to_dict(self):
         return {
             "id": self.id,
