@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Clicker!</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a href="#home"><img src="/static/img/home.svg" alt="home"></a>
+            <a href="#top"><img src="/static/img/star.svg" alt="star"></a>
+            <a href="#profile"><img src="/static/img/user.svg" alt="profile"></a>
+        </div>
+    </header>
+
+    <main>
+        <div id="home" class="page">
+            <h1 id="score">Loading...</h1>
+            <button id="click">Click!</button>
+        </div>
+
+        <div id="top" class="page">
+            <h1>Top:</h1>
+            <ul id="top">
+                <li>Loading...</li>
+            </ul>
+        </div>
+
+        <div id="profile" class="page">
+            <h1 id="nickname">Loading...</h1>
+        </div>
+    </main>
+
+    <script src="/static/js/script.js"></script>
+    <script src="/static/js/api.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font: 700 1rem Ubuntu, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    background: darkgrey;
+    width: fit-content;
+    margin: 3rem auto;
+    padding: 0.6rem 1rem;
+    border-radius: 100px;
+}
+
+.nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+main {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background: darkgrey;
+    border-radius: 100px;
+    text-align: center;
+}
